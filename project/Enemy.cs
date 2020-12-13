@@ -43,8 +43,6 @@ public class Enemy : Character
 
 		changeDirectionTimer -= delta;
 		
-		Console.Write(changeDirectionTimer.ToString());
-		
 		if(changeDirectionTimer <= 0f)
 		{
 			var rnd = new RandomNumberGenerator();
